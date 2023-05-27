@@ -1,0 +1,31 @@
+/* ITEM LIST CONTAINER */
+.list_container {
+  text-align: center;
+  padding: 10px;
+
+  .marca {
+    font-size: 30px;
+    padding: 3px;
+  }
+
+  .list_container p {
+    font-size: 18px;
+  }
+
+  .articulo {
+    font-size: 30px;
+  }
+
+  .descripcion {
+    font-size: 25px;
+    padding: 5px;
+  }
+
+  .precio {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+  }
+}
+
+

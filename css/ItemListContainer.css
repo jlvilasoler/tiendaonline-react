@@ -1,0 +1,24 @@
+/* ITEM LIST CONTAINER */
+.list_container {
+  text-align: center;
+  padding: 10px;
+}
+.list_container .marca {
+  font-size: 30px;
+  padding: 3px;
+}
+.list_container .list_container p {
+  font-size: 18px;
+}
+.list_container .articulo {
+  font-size: 30px;
+}
+.list_container .descripcion {
+  font-size: 25px;
+  padding: 5px;
+}
+.list_container .precio {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px;
+}/*# sourceMappingURL=ItemListContainer.css.map */
