@@ -1,7 +1,5 @@
 import "/src/components/Header/Header.scss"
-import { useState } from "react"
 import CardWidget from "../CardWidget/CardWidGet"
-
 
 const Header = () => {
 
@@ -9,7 +7,6 @@ const Header = () => {
         <header className="header">
             <div className="header_container">
                 <h1 className="header_logo">tiendaonline.uy</h1>
-
 
                 <nav className="header_nav">
                     <a className="header_link" href="#">INICIO</a>

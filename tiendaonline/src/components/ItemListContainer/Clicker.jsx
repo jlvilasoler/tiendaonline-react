@@ -26,7 +26,6 @@ export const Clicker = ( {init=0 ,step=1}) => {
             <button className="boton_reset" onClick={reset}> RESET </button>
             <p className="contador">{counter} unidades</p>
         </div>
-    )
-}
+    )}
 
 export default Clicker

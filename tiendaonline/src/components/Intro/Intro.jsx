@@ -8,8 +8,6 @@ const Intro = ({mensaje}) => {
                 <p>{mensaje}</p>
                 <hr/>
         </div>
-
-    )
-}
+    )}
 
 export default Intro
