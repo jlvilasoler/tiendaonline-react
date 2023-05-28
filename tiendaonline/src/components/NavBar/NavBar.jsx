@@ -1,4 +1,4 @@
-import "/src/components/Header/Header.scss"
+import "/src/components/NavBar/NavBar.scss"
 import CardWidget from "../CardWidget/CardWidGet"
 
 const Header = () => {
