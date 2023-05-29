@@ -4,6 +4,8 @@ import Footer from "./components/Footer/Footer";
 import Intro from "./components/Intro/Intro";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import "./App.css";
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 import { Clicker } from "./components/ItemListContainer/Clicker";
 
 
@@ -24,6 +26,7 @@ function App() {
         <Clicker/>
 
         <Footer/>
+        <ToastContainer />
       </div>
 
   )

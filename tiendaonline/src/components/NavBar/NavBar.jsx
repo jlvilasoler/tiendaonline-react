@@ -1,5 +1,5 @@
 import "/src/components/NavBar/NavBar.scss"
-import CardWidget from "../CardWidget/CardWidGet"
+import CardWidget from "../CardWidget/CardWidget"
 
 const Header = () => {
 
@@ -11,8 +11,8 @@ const Header = () => {
                 <nav className="header_nav">
                     <a className="header_link" href="#">INICIO</a>
                     <a className="header_link" href="#">CATEGORIAS</a>
-                    <a className="header_link" href="#">INGRESAR</a>
                     <a className="header_link" href="#">CONTACTO</a>
+                    <a className="header_link" href="#">👤</a>
                     <CardWidget/>
                 </nav>
             </div>
