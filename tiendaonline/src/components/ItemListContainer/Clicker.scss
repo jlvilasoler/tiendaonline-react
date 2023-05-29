@@ -1,9 +1,10 @@
-  /* BOTON ITEM */
+/* BOTON ITEM */
 /* ITEM LIST CONTAINER */
 .boton_container {
     text-align: center;
+    padding-bottom: 80px;
   }
-  
+
   .boton_container .boton_sumar {
     border-radius: 7px;
     color: #ffffff;
@@ -12,12 +13,12 @@
     font-size: 23px;
     cursor: pointer;
     padding: 10px;
+}
 
-    .boton_sumar:hover {
-      background-color: #98f328;
-      color: #ffffff;
-      transition: 0.3s;
-    }
+.boton_sumar:hover {
+  background-color: #98f328;
+  color: #ffffff;
+  transition: 0.3s;
 }
 
 .boton_container .boton_restar {
@@ -28,12 +29,12 @@
     font-size: 23px;
     cursor: pointer;
     padding: 10px;
+}
 
-    .boton_restar:hover {
-      background-color: #d67132;
-      color: #ffffff;
-      transition: 0.3s;
-    }
+.boton_restar:hover {
+  background-color: #d67132;
+  color: #ffffff;
+  transition: 0.3s;
 }
 
 .boton_container .boton_reset {
@@ -44,12 +45,12 @@
     font-size: 29px;
     cursor: pointer;
     padding: 10px;
+}
 
-    .boton_reset:hover {
-      background-color: #535252;
-      color: #ffffff;
-      transition: 0.3s;
-    }
+.boton_reset:hover {
+  background-color: #535252;
+  color: #ffffff;
+  transition: 0.3s;
 }
 
 .boton_container .contador {
@@ -61,3 +62,19 @@
     padding: 10px;
 }
 
+.boton_container .boton_agregar {
+  border-radius: 7px;
+  color: #ffffff;
+  background-color: #0a3d20;
+  font-weight: bold;
+  font-size: 29px;
+  cursor: pointer;
+  padding: 10px;
+  width: 220px;
+}
+
+.boton_agregar:hover {
+  background-color: #106a29;
+  color: #ffffff;
+  transition: 0.3s;
+}
