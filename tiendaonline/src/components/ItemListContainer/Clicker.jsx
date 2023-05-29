@@ -32,7 +32,7 @@ export const Clicker = ( {init=0 ,step=1}) => {
         setCounter(init)
     };
 
-    const mensaje_agregar = () => {
+    const agregar_articulo = () => {
         if (counter > 0) {
           toast.success('Producto Agregado al carrito', {
             position: "top-center",
@@ -64,7 +64,7 @@ export const Clicker = ( {init=0 ,step=1}) => {
             <button className="boton_restar" onClick={restar}> ➖ </button>
             <button className="boton_reset" onClick={reset}> RESET </button>
             <p className="contador">{counter} unidades</p>
-            <button onClick = {mensaje_agregar} className="boton_agregar"> AGREGAR </button>
+            <button onClick = {agregar_articulo} className="boton_agregar"> AGREGAR </button>
         </div>
     )}
 
