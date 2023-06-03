@@ -1,10 +1,10 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import "/src/components/ItemListContainer/Clicker.scss"
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 export const Clicker = ( {init=0 ,step=1}) => {
-    const [counter, setCounter] = useState(0)
+    const [counter, setCounter] = useState( Number(localStorage.getItem("counter")) || init)
     console.log(counter)
 
     const sumar = () => {
@@ -14,7 +14,15 @@ export const Clicker = ( {init=0 ,step=1}) => {
     const restar = () => {
         if (counter > 0) {
         setCounter(counter - step)
+
     }};
+
+    //Agregamos el Efeto al estado del counter para actualizar el LOCAL STORAGE:
+    useEffect(() => {
+        localStorage.setItem("counter", counter)
+    }, [counter])
+
+
 
     const reset = () => {
         if (counter > 0) {
@@ -57,7 +65,6 @@ export const Clicker = ( {init=0 ,step=1}) => {
         }
     };
     
-
     return (
         <div className="boton_container">
             <button className="boton_sumar" onClick={sumar}> ➕ </button>
